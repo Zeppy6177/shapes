@@ -3,6 +3,11 @@ package com.mycompany;
 public class Circle extends Shape implements CircumferenceCalculable {
 	double r;
 	
+	Circle(double radius)
+	{
+		this.r = radius;
+	}
+		
 	@Override
 	public double calculateArea() {
 		return (PI * Math.pow(r, 2));
