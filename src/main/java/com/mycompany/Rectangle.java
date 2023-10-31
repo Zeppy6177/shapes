@@ -11,12 +11,12 @@ public class Rectangle extends Shape implements PerimeterCalculable {
 	}
 
 	@Override
-	public double calculatePerimeter() {
-		return (this.width + this.height) * 2;
-	}
-
-	@Override
 	public double calculateArea() {
 		return this.width * this.height;
+	}
+	
+	@Override
+	public double calculatePerimeter() {
+		return (this.width + this.height) * 2;
 	}
 }

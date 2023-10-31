@@ -1,6 +1,6 @@
 package com.mycompany;
 
-public class Circle extends Shape implements CircumferenceCalculable {
+public class Circle extends Shape implements CircumferenceCalculable, Constants{
 	double r;
 	
 	Circle(double radius)

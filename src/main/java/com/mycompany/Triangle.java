@@ -10,7 +10,7 @@ public class Triangle extends Shape implements PerimeterCalculable {
 
 	@Override
 	public double calculateArea() {
-		return (Math.pow(base, 2) * Math.sqrt(3))/4;
+		return ((Math.sqrt(3)/4) * Math.pow(base, 2));
 	}
 
 	@Override
