@@ -41,12 +41,17 @@ public class Main {
                 case 4:
                     System.out.println("Input the radius.");
                     Circle circle = new Circle(Double.parseDouble(scanner.nextLine()));
-                    break;    
+                    break;
+                case 5:
+                    scanner.close();
+                    System.exit(0);
+                    break;
                 default:
                     break;
 
                 
             }
         }
+
     }
 }
